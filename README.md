@@ -18,7 +18,7 @@ Preset files associated with maps are defined in `ReShade.ini`:
 Casa=..\..\bin\bin\Preset\Start character selection.ini
 ```
 
-You need to use Reshade version (5.0 or higher) with Addon, it is recommended to use: ReShade_Setup_5.4.2_Addon
+You need to use Reshade version (5.0 or higher) with Addon, it is recommended to use: ReShade_Setup_5.4.2_Addon\
 Find the corresponding version in [ReShade Repository](https://reshade.me/forum/general-discussion/294-reshade-repository-new-host)
 
 ## Usage
@@ -28,11 +28,11 @@ Find the corresponding version in [ReShade Repository](https://reshade.me/forum/
 
 ## Way of working
 
-The principle of switching textures is to move files instead of copy files, so the process is instantaneous.
-For security reasons, moving texture files will not have overwriting behavior.
+The principle of switching textures is to move files instead of copy files, so the process is instantaneous.\
+_For security reasons, moving texture files will not have overwriting behavior._
 
-There are two folders (staging areas) in the `BOD Reforged` folder, both of which have the same directory structure as the game directory.
-`BOD Reforged/Original` is for files from the original game
+There are two folders (staging areas) in the `BOD Reforged` folder, both of which have the same directory structure as the game directory.\
+`BOD Reforged/Original` is for files from the original game\
 `BOD Reforged/Reforged` is for files from the Reforged
 
 | Option                        |                                                                                     Description                                                                                      |
@@ -47,7 +47,7 @@ There are two folders (staging areas) in the `BOD Reforged` folder, both of whic
 
 This project uses Visual Studio 2022 to build AutoBladePreset.
 
-1. Clone this repository
+1. Clone this repository\
    git clone https://github.com/Sryml/BladeReforged
 2. Download the [Reshade_5.4.2 repository](https://github.com/crosire/reshade/archive/refs/tags/v5.4.2.zip)
 3. Open the Visual Studio solution
@@ -58,7 +58,7 @@ This project uses Visual Studio 2022 to build AutoBladePreset.
 
 ## Blade of Darkness Reforged (by sfb)
 
-Blade of Darkness Reforged is a total visual overhaul including minor gameplay enhancements.
+Blade of Darkness Reforged is a total visual overhaul including minor gameplay enhancements.\
 Reforged aims to update the visual fidelity of Blade of Darkness whilst not straying too far from the original look and feel.
 
 Although many textures have changed from their original design, each and every texture is based on an upscaled version of the original allowing for greater visual authenticity and feel.
@@ -73,5 +73,5 @@ Individual Reshade presets for each map. These individual Reshade configs have b
 
 ## Useful links
 
-[Arokhslair.net](https://www.arokhslair.net/wp/)
+[Arokhslair.net](https://www.arokhslair.net/wp/)\
 [Steamcommunity.com](https://steamcommunity.com/app/1710170/discussions/)

@@ -18,7 +18,7 @@ Reshade 插件，基于[Reshade_5.4.2](https://github.com/crosire/reshade/tree/v
 Casa=..\..\bin\bin\Preset\Start character selection.ini
 ```
 
-你需要使用带 Addon 的 Reshade 版本（5.0 或更高），建议使用：ReShade_Setup_5.4.2_Addon
+你需要使用带 Addon 的 Reshade 版本（5.0 或更高），建议使用：ReShade_Setup_5.4.2_Addon\
 在[ReShade Repository](https://reshade.me/forum/general-discussion/294-reshade-repository-new-host)找到对应的版本
 
 ## 用法
@@ -28,11 +28,11 @@ Casa=..\..\bin\bin\Preset\Start character selection.ini
 
 ## 工作方式
 
-纹理的切换原理是移动文件而不是复制文件，因此这个过程是瞬间完成的。
-出于安全考虑，纹理文件的移动不会有覆盖行为。
+纹理的切换原理是移动文件而不是复制文件，因此这个过程是瞬间完成的。\
+_出于安全考虑，纹理文件的移动不会有覆盖行为。_
 
-BOD Reforged 文件夹里有两个文件夹（暂存区），它们的目录结构都与游戏目录相同。
-`BOD Reforged/Original`用于存放来自原始游戏的文件
+BOD Reforged 文件夹里有两个文件夹（暂存区），它们的目录结构都与游戏目录相同。\
+`BOD Reforged/Original`用于存放来自原始游戏的文件\
 `BOD Reforged/Reforged`用于存放来自 Reforged 的文件
 
 | 选项                          |                                                          描述                                                          |
@@ -47,7 +47,7 @@ BOD Reforged 文件夹里有两个文件夹（暂存区），它们的目录结�
 
 此项目使用 Visual Studio 2022 构建 AutoBladePreset。
 
-1. 克隆此仓库
+1. 克隆此仓库\
    git clone https://github.com/Sryml/BladeReforged
 2. 下载 [Reshade_5.4.2 仓库](https://github.com/crosire/reshade/archive/refs/tags/v5.4.2.zip)
 3. 打开 Visual Studio 解决方案
@@ -58,7 +58,7 @@ BOD Reforged 文件夹里有两个文件夹（暂存区），它们的目录结�
 
 ## Blade of Darkness Reforged (by sfb)
 
-Blade of Darkness Reforged is a total visual overhaul including minor gameplay enhancements.
+Blade of Darkness Reforged is a total visual overhaul including minor gameplay enhancements.\
 Reforged aims to update the visual fidelity of Blade of Darkness whilst not straying too far from the original look and feel.
 
 Although many textures have changed from their original design, each and every texture is based on an upscaled version of the original allowing for greater visual authenticity and feel.
@@ -73,5 +73,5 @@ Individual Reshade presets for each map. These individual Reshade configs have b
 
 ## Useful links
 
-[Arokhslair.net](https://www.arokhslair.net/wp/)
+[Arokhslair.net](https://www.arokhslair.net/wp/)\
 [Steamcommunity.com](https://steamcommunity.com/app/1710170/discussions/)
