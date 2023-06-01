@@ -1,0 +1,13 @@
+# Build results
+[Bb]in/
+
+# Visual Studio cache files
+.vs/
+*.vcxproj.user
+
+# Visual Studio Code
+.vscode/
+
+#
+.test/
+.Release/
