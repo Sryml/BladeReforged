@@ -23,6 +23,8 @@ Find the corresponding version in [ReShade Repository](https://reshade.me/forum/
 
 ## Usage
 
+It is currently not applicable to the major release of steam. It is recommended to choose to roll back to the last stable version (V109) in the "beta version" of the game properties. The same is true for the GOG platform
+
 1. Put the "BOD Reforged" folder into "GameRoot/BODLoader/Mods"
 2. Install from "MODS->SETUP" option
 

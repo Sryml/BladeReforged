@@ -25,6 +25,8 @@ MenuFontBig = Language.LetrasMenuBig
 
 
 #
+
+
 def makedirs(name, mode=511):
     head, tail = os.path.split(name)
     if head and tail and not os.path.exists(head):
@@ -40,7 +42,7 @@ def GetMenuWidget(name):
             return i
 
 
-#
+###############
 KEY = "BOD_Reforged_1"  # 对于内存储存的变量名称
 MOD_PATH = "../../BODLoader/Mods/BOD Reforged/"
 SETTINGS_PATH = "../../Config/BLConfig/BOD Reforged/settings.py"
@@ -58,7 +60,6 @@ execfile(os.path.join(MOD_PATH, "Scripts/GetFiles.py"))
 
 dirs = [
     "../../bin/bin/Preset",
-    "../../bin/bin/reshade-shaders/Shaders",
     "../../bin/bin/reshade-shaders/Shaders/FXShaders",
     "../../bin/bin/reshade-shaders/Shaders/qUINT",
     "../../bin/bin/reshade-shaders/Textures",
@@ -67,6 +68,23 @@ dirs = [
 for i in dirs:
     if not os.path.exists(i):
         makedirs(i)
+###############
+
+
+def PutReforgeFile(src_root):
+    """After installing the mod, type in the console:
+    __import__("ReforgedMenu").PutReforgeFile(path)
+    path is the root directory of the Reforged file
+    If the files is located at "D:/Reforged/3DCHARS", then the path is "D:/Reforged"
+    """
+    if not os.path.exists(src_root):
+        print("path does not exist: %s" % src_root)
+        return
+    dst_root = MOD_PATH + "Reforged/"
+    for i in GetFiles("Texture"):
+        src = os.path.join(src_root, i)
+        dst = os.path.join(dst_root, i)
+        MoveFile(src, dst)
 
 
 #
@@ -119,7 +137,7 @@ def CheckCurrentMap(time):
             MemPersistence.Store(KEY, [curr_mode, curr_map])
 
 
-def MoveFile(src, dst, src_descr, dst_descr):
+def MoveFile(src, dst, src_descr="source", dst_descr="destination"):
     if os.path.exists(src):
         if not os.path.exists(dst):
             os.rename(src, dst)

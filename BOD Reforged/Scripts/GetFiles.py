@@ -79,11 +79,6 @@ def GetFiles(val):
             "bin/bin/reshade-shaders/Shaders/MagicHDR.fx",
             "bin/bin/reshade-shaders/Shaders/Technicolor.fx",
             "bin/bin/reshade-shaders/Shaders/UIMask.fx",
-            "bin/bin/reshade-shaders/Shaders/qUINT/qUINT_bloom.fx",
-            "bin/bin/reshade-shaders/Shaders/qUINT/qUINT_dof.fx",
-            "bin/bin/reshade-shaders/Shaders/qUINT/qUINT_mxao.fx",
-            "bin/bin/reshade-shaders/Shaders/qUINT/qUINT_ssr.fx",
-            #
             "bin/bin/reshade-shaders/Shaders/DrawText.fxh",
             "bin/bin/reshade-shaders/Shaders/FXAA.fxh",
             "bin/bin/reshade-shaders/Shaders/KeyCodes.fxh",
@@ -94,6 +89,13 @@ def GetFiles(val):
             "bin/bin/reshade-shaders/Shaders/TriDither.fxh",
             "bin/bin/reshade-shaders/Shaders/UIDetect.fxh",
             "bin/bin/reshade-shaders/Shaders/VRS_Map.fxh",
+            #
+            "bin/bin/reshade-shaders/Shaders/qUINT/qUINT_bloom.fx",
+            "bin/bin/reshade-shaders/Shaders/qUINT/qUINT_dof.fx",
+            "bin/bin/reshade-shaders/Shaders/qUINT/qUINT_mxao.fx",
+            "bin/bin/reshade-shaders/Shaders/qUINT/qUINT_ssr.fx",
+            "bin/bin/reshade-shaders/Shaders/qUINT/qUINT_common.fxh",
+            #
             "bin/bin/reshade-shaders/Shaders/FXShaders/API.fxh",
             "bin/bin/reshade-shaders/Shaders/FXShaders/AspectRatio.fxh",
             "bin/bin/reshade-shaders/Shaders/FXShaders/Blending.fxh",
@@ -106,7 +108,6 @@ def GetFiles(val):
             "bin/bin/reshade-shaders/Shaders/FXShaders/Math.fxh",
             "bin/bin/reshade-shaders/Shaders/FXShaders/Tonemap.fxh",
             "bin/bin/reshade-shaders/Shaders/FXShaders/Transform.fxh",
-            "bin/bin/reshade-shaders/Shaders/qUINT/qUINT_common.fxh",
             #
             # "bin/bin/reshade-shaders/Textures/dummy",
             # "bin/bin/reshade-shaders/Textures/Layer.png",

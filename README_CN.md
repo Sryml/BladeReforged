@@ -23,6 +23,8 @@ Casa=..\..\bin\bin\Preset\Start character selection.ini
 
 ## 用法
 
+目前不适用于 steam major 版本，建议在游戏属性的测试版中选择回滚到最后一个稳定版本（V109），GOG 平台同理
+
 1. 将 "BOD Reforged" 文件夹放到 "游戏根目录/BODLoader/Mods"
 2. 从 "MODS->SETUP" 选项安装
 
