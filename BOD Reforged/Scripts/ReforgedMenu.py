@@ -87,7 +87,43 @@ def PutReforgeFile(src_root):
         MoveFile(src, dst)
 
 
-#
+def CheckReforgeFile():
+    """After installing the mod, type in the console:
+    __import__("ReforgedMenu").CheckReforgeFile()
+    """
+    open(_LOGFILE, "w").close()
+    vals = [
+        "Char 2K",
+        "Char 2K Hybrid",
+        "Char 2K Original",
+        "HUD",
+        "GamePlay Enhancements",
+        "Reshade",
+        "Texture",
+    ]
+    dir_name = {
+        "Char 2K": "3DCHARS 2K",
+        "Char 2K Hybrid": "3DCHARS 2K Hybrid",
+        "Char 2K Original": "3DCHARS 2K Original",
+        "HUD": "UPDATED_HUD",
+    }
+    count = 0
+    for val in vals:
+        for i in GetFiles(val):
+            path = os.path.join(MOD_PATH, "Reforged/", dir_name.get(val, ""), i)
+            if not os.path.exists(path):
+                str_ = "CheckReforgeFile: file does not exist <%s>" % path
+                str_ = string.replace(str_, "\\", "/")
+                WriteLog(str_ + "\n")
+                print(str_)
+            else:
+                count = count + 1
+    print("%d files verified!" % count)
+
+
+###############
+
+
 def WriteLog(arg):
     f = open(_LOGFILE, "at")
     f.write(arg)
