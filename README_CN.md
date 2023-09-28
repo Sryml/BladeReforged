@@ -2,7 +2,11 @@
 
 为**Blade of Darkness Reforged**制作了菜单交互 MOD，一切主旨在于更方便的使用它。
 
-_此仓库不包含纹理文件_
+注意：_此仓库不包含纹理文件_
+
+<img src="./BOD Reforged/Preview.jpg" width="600" />
+
+<br/>
 
 ## AutoBladePreset
 

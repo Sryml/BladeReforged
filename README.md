@@ -2,7 +2,11 @@
 
 Made a menu interaction MOD for **Blade of Darkness Reforged**, everything is aimed at using it more conveniently.
 
-_This repository does not contain texture files._
+_Note: This repository does not contain texture files._
+
+<img src="./BOD Reforged/Preview.jpg" width="600" />
+
+<br/>
 
 ## AutoBladePreset
 
